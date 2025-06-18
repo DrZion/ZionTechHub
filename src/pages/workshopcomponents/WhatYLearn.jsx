@@ -40,7 +40,7 @@ function WhatYLearn({ scrollTo }) {
             {icon}
           </span>
           <h3 className="  font-[600] sm:text-[28px] text-[20px] sm:h-[84px]  w-fit">
-            Introduction <br /> to Analytics Engineering
+            How to evolve from dashboard creator to decision enabler
           </h3>
         </section>
         {/* why 2  */}
@@ -49,7 +49,7 @@ function WhatYLearn({ scrollTo }) {
             {icon}
           </span>
           <h3 className="  font-[600] sm:text-[28px] text-[20px] h-[84px]  w-fit">
-            Understanding the Data
+            What Agentic Analytics is and why it's a game changer
           </h3>
         </section>
         {/* why 3  */}
@@ -58,7 +58,7 @@ function WhatYLearn({ scrollTo }) {
             {icon}
           </span>
           <h3 className=" font-[600] sm:text-[28px] text-[20px] h-[84px]  w-fit">
-            Designing ETL Pipelines
+            How TikTok and other global brands use data to forcast, act and adapt
           </h3>
         </section>
         {/* why 4 */}
@@ -67,14 +67,14 @@ function WhatYLearn({ scrollTo }) {
             {icon}
           </span>
           <h3 className="  font-[600] sm:text-[28px] text-[20px] h-[84px]  w-fit">
-            Data Modeling with dbt
+            What tools and technology you must master to stay relevant 
           </h3>
         </section>
       </div>
-      <h2 className=" font-[600] sm:text-[30px] text-[24px] text-[#333] ">
+     {/* <h2 className=" font-[600] sm:text-[30px] text-[24px] text-[#333] ">
         Day 2 – Data Activation & Insight Delivery
-      </h2>
-      <div className=" my-[69px] flex flex-wrap md:gap-[25px]  gap-[69px] max-w-[1265px] text-[#1A1A1A]">
+      </h2> */}
+     {/* <div className=" my-[69px] flex flex-wrap md:gap-[25px]  gap-[69px] max-w-[1265px] text-[#1A1A1A]">
         {/* why 5  */}
         <section className=" sm:py-[40] sm:px-[40px] py-[40px] lg:px-[20px] px-[15px] rounded-[10px] bg-[#EBECED] flex flex-col gap-[12px]  md:w-fit w-[95%]">
           <span className="w-[45px] h-[45px]  bg-white flex items-center justify-center p-[10px] rounded-[5px] border border-gray-400">
@@ -93,7 +93,7 @@ function WhatYLearn({ scrollTo }) {
             Dashboarding <br /> for Business Insight
           </h3>
         </section>
-      </div>
+      </div> */}
       <motion.button
         onClick={scrollTo}
         whileInView={{
